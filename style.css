@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+;
 }
 
 html {
@@ -45,10 +46,11 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: white;
+   color: rgba(255, 255, 0, 0.773);
   font-weight: 500;
   transition: all 0.3s ease;
   position: relative;
+  padding: 5px 10px;
 }
 
 .nav-links a::after {
@@ -73,16 +75,27 @@ body {
 /* ===== SECTIONS ===== */
 section {
   padding: 120px 100px;
-  scroll-margin-top: 90px;
+  scroll-margin-top: 100px;
+  transition: all 0.4s ease;
 }
 
-/* About Section */
+/* Section Hover Effect */
+section:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 25px rgba(255, 230, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+}
+
+/* ===== ABOUT SECTION ===== */
 .About {
+  border-left: 4px solid rgba(255, 255, 0, 0.764);
+  border-right: 4px solid rgba(255, 255, 0, 0.764);
+  border-radius: 20px;
   display: flex;
   align-items: center;
   gap: 30px;
   background: #fff;
-  border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
@@ -92,64 +105,41 @@ section {
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid rgba(255, 221, 0, 0.701);
+  transition: all 0.3s ease;
 }
 
 .About-content p {
   font-size: 17px;
 }
 
-.resume-section a {
-  text-decoration: none;
-  color: #1e1e2f;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.resume-section a:hover {
-  color: ;
-}
-
+/* ===== ACADEMY SECTION ===== */
 .Academy {
   background: #f8f9fc;
-  border-left: 5px solid yellow;
-  border-radius: 10px;
+  border-left: 4px solid rgba(255, 255, 0, 0.764);
+  border-right: 4px solid rgba(255, 255, 0, 0.764);
+  border-radius: 20px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
 }
 
-.Academy-content h3 {
-  font-size: 22px;
-  color: #1e1e2f;
-  margin-bottom: 10px;
-}
-
-.Academy-content p {
-  font-size: 17px;
-}
-
-/* Projects Section */
+/* ===== PROJECTS SECTION ===== */
 .Project {
+  border-left: 4px solid rgba(255, 255, 0, 0.764);
+  border-right: 4px solid rgba(255, 255, 0, 0.764);
+  border-radius: 20px;
   background: white;
-  border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
 }
 
-.Project-details h3 {
-  font-size: 22px;
-  color: rgba(0, 0, 0, 0.9);
-  margin-bottom: 10px;
-}
-
-.Project-details ol {
-  margin-left: 20px;
-  line-height: 1.8;
-}
-
-/* Experience Section */
+/* ===== EXPERIENCE SECTION ===== */
 .experience {
+  border-left: 4px solid rgba(255, 255, 0, 0.764);
+  border-right: 4px solid rgba(255, 255, 0, 0.764);
+  border-radius: 20px;
   background: #f8f9fc;
-  border-radius: 10px;
-  border-left: 5px solid black;
   box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
 }
 
 .experience h2 {
@@ -171,6 +161,23 @@ section {
   color: #333;
 }
 
+/* ===== Hover Effects for Content ===== */
+p:hover, li:hover, h2:hover, h3:hover, img:hover, a:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+img:hover {
+  box-shadow: 0 0 25px rgba(255, 230, 0, 0.6);
+  border-radius: 50%;
+}
+
+a:hover {
+  color: wheat !important;
+  text-shadow: 0 0 10px rgba(255, 230, 0, 0.8);
+}
+
+/* ===== Responsive ===== */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -197,55 +204,3 @@ section {
   }
 }
 
-body *:hover {
-  transform: scale(1.02);
-  box-shadow: 0 0 20px rgba(255, 230, 0, 0.3);
-  transition: all 0.3s ease;
-  cursor: pointer;
-  border-radius: 8px;
-  z-index: 2;
-  position: relative;
-}
-
-
-body *:active {
-  transform: scale(0.98);
-  box-shadow: 0 0 25px rgba(255, 230, 0, 0.5);
-  transition: all 0.2s ease;
-  border-radius: 8px;
-}
-
-
-body * {
-  transition: all 0.3s ease;
-}
-
-
-header:hover, nav:hover, section:hover {
-  transform: none;
-  box-shadow: none;
-  cursor: default;
-}
-
-header *:hover, nav *:hover, section *:hover {
-  transform: scale(1.02);
-  box-shadow: 0 0 20px rgba(255, 230, 0, 0.3);
-}
-
-p:hover, li:hover, h2:hover, h3:hover {
-  transform: scale(1.01);
-}
-
-
-img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 25px rgba(255, 230, 0, 0.6);
-  border-radius: 50%;
-}
-
-
-a:hover {
-  color: wheat !important;
-  text-shadow: 0 0 10px rgba(255, 230, 0, 0.8);
-  transform: scale(1.05);
-}
