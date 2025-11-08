@@ -220,7 +220,7 @@ a:hover {
   font-size: 26px;
   margin-bottom: 30px;
   color: #1e1e2f;
-  text-shadow: 0 0 8px rgba(255, 255, 0, 0.4);
+  /* text-shadow: 0 0 8px rgba(255, 255, 0, 0.4); */
 }
 
 .cert-grid {
@@ -241,7 +241,6 @@ a:hover {
 
 .cert-item:hover {
   transform: scale(1.05);
-  
   background-color: rgba(255, 255, 255, 0.8);
 }
 
