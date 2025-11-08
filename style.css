@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-;
+  background-color: rgba(255, 192, 203, 0);
 }
 
 html {
@@ -174,7 +174,7 @@ img:hover {
 
 a:hover {
   color: wheat !important;
-  text-shadow: 0 0 10px rgba(255, 230, 0, 0.8);
+
 }
 
 /* ===== Responsive ===== */
@@ -204,3 +204,84 @@ a:hover {
   }
 }
 
+/* ===== CERTIFICATE SECTION ===== */
+.Certificate {
+  border-left: 4px solid rgba(255, 255, 0, 0.764);
+  border-right: 4px solid rgba(255, 255, 0, 0.764);
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+  padding: 60px;
+  text-align: left;
+}
+
+.Certificate h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+  color: #1e1e2f;
+  text-shadow: 0 0 8px rgba(255, 255, 0, 0.4);
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  justify-content: center;
+}
+
+.cert-item {
+ 
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.cert-item:hover {
+  transform: scale(1.05);
+  
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.cert-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid rgba(255, 230, 0, 0.7);
+  transition: all 0.3s ease;
+}
+
+.cert-item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(255, 230, 0, 0.6);
+}
+
+.cert-item h3 {
+  margin-top: 15px;
+  color: #333;
+  font-size: 18px;
+}
+
+.cert-item p {
+  font-size: 15px;
+  color: #555;
+  margin-top: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .Certificate {
+    padding: 40px 20px;
+  }
+
+  .cert-item img {
+    height: 150px;
+  }
+
+  .cert-item h3 {
+    font-size: 16px;
+  }
+}
