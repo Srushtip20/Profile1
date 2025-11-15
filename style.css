@@ -191,7 +191,8 @@ section:hover {
 
 /* ===== ACADEMY SECTION ===== */
 .Academy {
-  background: #f8f9fc;
+  background: linear-gradient(135deg, #e6f7ff 0%, #e0f2ff 100%);
+  color: #1e1e2f;
   border-left: 4px solid rgba(255, 255, 0, 0.764);
   border-right: 4px solid rgba(255, 255, 0, 0.764);
   border-radius: 20px;
@@ -204,7 +205,8 @@ section:hover {
   border-left: 4px solid rgba(255, 255, 0, 0.764);
   border-right: 4px solid rgba(255, 255, 0, 0.764);
   border-radius: 20px;
-  background: #f0f0f5;
+  background: #ffffff;
+  color: #333;
   padding: 6rem 2rem;
 }
 
@@ -267,7 +269,8 @@ section:hover {
   border-left: 4px solid rgba(255, 255, 0, 0.764);
   border-right: 4px solid rgba(255, 255, 0, 0.764);
   border-radius: 20px;
-  background: #f8f9fc;
+  background: linear-gradient(135deg, #e6f7ff 0%, #e0f2ff 100%);
+  color: #1e1e2f;
   box-shadow: 0 3px 12px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
 }
@@ -312,6 +315,7 @@ a:hover {
   border-right: 4px solid rgba(255, 255, 0, 0.764);
   border-radius: 20px;
   background: #ffffff;
+  color: #333;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
   transition: all 0.4s ease;
   padding: 60px;
@@ -367,8 +371,8 @@ a:hover {
 /* ===== Contact Section ===== */
 .contact-section {
   padding: 6rem 2rem;
-  background: #ffffff;
-  color: #333;
+  background: linear-gradient(135deg, #e6f7ff 0%, #e0f2ff 100%);
+  color: #1e1e2f;
 }
 
 .contact-section .section-title {
@@ -408,7 +412,7 @@ a:hover {
 .contact-card p:hover,
 .contact-card a:hover {
   transform: scale(1.05);
-  color: #667eea;
+  
 }
 
 .contact-form {
@@ -433,8 +437,8 @@ a:hover {
 .contact-form textarea:focus {
   outline: none;
   transform: scale(1.02);
-  border-color: #667eea;
-  box-shadow: 0 0 8px rgba(102,126,234,0.3);
+  border-color: #ea66a474;
+  box-shadow: 0 0 8px rgba(234, 102, 201, 0.836);
 }
 
 .contact-form textarea {
@@ -480,7 +484,7 @@ a:hover {
   justify-content: flex-start;
   min-height: 100vh;
   width: 100%;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #a866ea 0%, #5ba24b 100%);
   padding: 0 5%;
   color: white;
 }
@@ -649,8 +653,8 @@ a:hover {
 /* ===== Contact Section – Enhanced ===== */
 .contact-section {
   padding: 6rem 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: #fff;
+  background: linear-gradient(135deg, #e6f7ff 0%, #e0f2ff 100%);
+  color: #1e1e2f;
 }
 
 .contact-section .section-title {
@@ -697,7 +701,7 @@ a:hover {
 .contact-card p, .contact-card a {
   font-size: 1rem;
   margin-bottom: 0.8rem;
-  color: #fff;
+  color: #333;
   text-decoration: none;
   transition: all 0.3s;
 }
@@ -743,13 +747,13 @@ a:hover {
   font-size: 1rem;
   width: 100%;
   transition: all 0.3s;
-  background: rgba(255,255,255,0.15);
-  color: #fff;
+  background: rgba(255,255,255,0.9);
+  color: #1e1e2f;
 }
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-  color: rgba(255,255,255,0.7);
+  color: rgba(0,0,0,0.5);
 }
 
 .contact-form input:focus,
@@ -793,7 +797,8 @@ a:hover {
 
 .Project {
   padding: 6rem 2rem;
-  background: #f0f0f5; /* light background */
+  background: #ffffff; /* white background to alternate */
+  color: #333;
   border-radius: 20px;
 }
 
@@ -876,7 +881,8 @@ a:hover {
 
 .Academy {
   padding: 4rem 2rem;
-  background: #f8f9fc;
+  background: linear-gradient(135deg, #e6f7ff 0%, #e0f2ff 100%);
+  color: #1e1e2f;
   border-radius: 20px;
   transition: all 0.3s ease;
 }
@@ -938,7 +944,8 @@ a:hover {
 
 .experience {
   padding: 4rem 2rem;
-  background: #f8f9fc;
+  background: linear-gradient(135deg, #e6f7ff 0%, #e0f2ff 100%);
+  color: #1e1e2f;
   border-radius: 20px;
   transition: all 0.3s ease;
 }
@@ -999,6 +1006,7 @@ a:hover {
 .Certificate {
   padding: 4rem 2rem;
   background: #ffffff;
+  color: #333;
   border-radius: 20px;
   transition: all 0.3s ease;
 }
@@ -1086,7 +1094,8 @@ a:hover {
 }
 /* Academics Section */
 .Academy {
-  background: #e0f2ff; /* Soft blue */
+  background: linear-gradient(135deg, #e6f7ff 0%, #e0f2ff 100%);
+  color: #1e1e2f;
   border-left: 4px solid rgba(255, 255, 0, 0.764);
   border-right: 4px solid rgba(255, 255, 0, 0.764);
   border-radius: 20px;
@@ -1097,7 +1106,8 @@ a:hover {
 
 /* Experience Section */
 .experience {
-  background: #f0e6ff; /* Light lavender */
+  background: linear-gradient(135deg, #e6f7ff 0%, #e0f2ff 100%);
+  color: #1e1e2f;
   border-left: 4px solid rgba(255, 255, 0, 0.764);
   border-right: 4px solid rgba(255, 255, 0, 0.764);
   border-radius: 20px;
@@ -1108,7 +1118,8 @@ a:hover {
 
 /* Projects Section */
 .Project {
-  background: #f0f0f5; /* Light gray */
+  background: #ffffff;
+  color: #333;
   border-left: 4px solid rgba(255, 255, 0, 0.764);
   border-right: 4px solid rgba(255, 255, 0, 0.764);
   border-radius: 20px;
@@ -1119,7 +1130,8 @@ a:hover {
 
 /* Certificate Section */
 .Certificate {
-  background: #fff8e1; /* Soft cream */
+  background: #ffffff;
+  color: #333;
   border-left: 4px solid rgba(255, 255, 0, 0.764);
   border-right: 4px solid rgba(255, 255, 0, 0.764);
   border-radius: 20px;
